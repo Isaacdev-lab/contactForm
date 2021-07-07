@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <title>Contact Form Design</title>
+</head>
+<body style="background-image: url(./images/pix5.jpg);">
+
+    <main>
+        <section>
+            <div class="contact-title">
+                <h1>LET'S KICK-START YOUR PROJECT</h1>
+                <h2>Tell us about your project or ask us a question</h2>
+            </div>
+
+            <div class="contactform">
+                <form action="contact.php" id="contactform" method="POST">
+
+                    <div>
+                        <input type="text" name="name" class="form-control" placeholder="Your name" required> 
+                    </div>
+
+                    <div>
+                        <input type="text" name="email" class="form-control" placeholder="Your email" required>
+                    </div>
+
+                    <div>
+                        <textarea name="message" id=""  class="form-control" cols="30" placeholder="Your message" rows="4" required ></textarea>
+                    </div>
+
+                    <div>
+                        <input type="submit" name="submit" class="form-control" value="SEND MESSAGE">
+                    </div>
+                    
+                </form>
+            </div>
+
+            <!-- <div class="flex-container">
+                <div style="flex-grow: 1">
+                    <h1>We look forward to hearing from you.</h1>
+                    <h4>Phone:</h4>
+                    <p>+2347068612360</p>
+                </div>
+                
+                <div style="flex-grow: 6">
+                    <form action="contact.php" id="contactform" method="POST">
+
+                        <div>
+                            <input type="text" name="name" class="form-control" placeholder="Your name" required> 
+                        </div>
+    
+                        <div>
+                            <input type="text" name="email" class="form-control" placeholder="Your email" required>
+                        </div>
+    
+                        <div>
+                            <textarea name="message" id=""  class="form-control" cols="30" placeholder="Your message" rows="4" required ></textarea>
+                        </div>
+    
+                        <div>
+                            <input type="submit" name="submit" class="form-control" value="SEND MESSAGE">
+                        </div>
+                        
+                    </form>
+                </div>
+              </div> -->
+        </section>
+    </main>
+    
+</body>
+</html>
